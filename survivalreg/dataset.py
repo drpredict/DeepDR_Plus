@@ -104,7 +104,7 @@ class SurvivalFuncEstimateDataset(BaseSurvivalDataset, ABC):
                 t2 = min(t2, item.time)
             else:
                 t1 = max(t1, item.time)
-        return self.feature(infos[0].feature_index), t1 - infos[0].time, t2 - infos[0].time, t2 > t1
+        return self.feature(infos[0].feature_index), t1 - infos[0].time, t2 - infos[0].time, t2 > t1, infos[0].sid
 
 
 class PairedRandomSampleDataset(BaseSurvivalDataset, ABC):

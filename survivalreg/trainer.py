@@ -223,7 +223,7 @@ class Trainer():
                 self.logger_dir, f'model_{epoch:03d}.pth'))
             # calculate matrix training
             metrix = self.matrix(epoch=self.epoch, data=self.merge_result())
-            print(metrix)
+            # print(metrix)
             metrix.update(dict(
                 type='train matrix',
                 epoch=self.epoch,
@@ -263,7 +263,7 @@ class Trainer():
         ))
         print(json.dumps(metrix), file=self.training_log)
         self.training_log.flush()
-        print('epoch', self.epoch, end=' ')
+        print('Test epoch', self.epoch, end=' ')
         for k, v in metrix.items():
             print(f'{k}: {v}', end=' ')
         print()
