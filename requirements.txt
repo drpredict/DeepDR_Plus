@@ -1,0 +1,11 @@
+numpy>=1.22.3
+seaborn>=0.11.2
+sklearn>=0.0
+scikit-learn>=1.1.1
+torchvision>=0.13.0
+pandas>=1.4.2
+albumentations
+torch
+pymongo
+tqdm
+pingouin

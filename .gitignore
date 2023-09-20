@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+.idea
+.vscode
+__pycache__
+logs
+.output
+.DS_Store
+.stversions

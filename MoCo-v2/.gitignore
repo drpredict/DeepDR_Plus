@@ -1,0 +1,10 @@
+**/.ipynb_checkpoints/
+models/resnext50_32x4d_bs32_queue16384_wd0.0001_t0.2_cos/
+**/__pycache__/
+check_cuda.sh
+jupyter-lab.sh
+main_clf.ipynb
+main_moco.ipynb
+out_clf.out
+out_moco.out
+main_clf-Copy1.ipynb
